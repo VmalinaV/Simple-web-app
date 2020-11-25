@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 8em;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #000f9b;
+}
+
+.list-navbar {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 4rem;
+}
+
+.list-navbar li {
+    float: left;
+    padding: 1rem;
+}
+
+.list-navbar li a {
+    display: block;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* form */
+
+form {
+    width: 300px;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+form div {
+    padding: 10px 0;
+}
+
+form .div-form-text, form .div-form-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .div-form-select select {
+    width: 164.8px;
+}
+
+form .div-form-checkbox label, form .div-form-radio label {
+    margin-right: 30px;
+}
+
+form .div-form-radio a {
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 50px;
+}

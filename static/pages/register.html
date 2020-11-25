@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../styles/main.css">
+
+</head>
+<body>
+    
+    <nav>
+        <ul class="list-navbar">
+            <li>
+                <a href="/">main</a>
+            </li>
+            <li>
+                <a href="/register">register</a>
+            </li>
+            <li>
+                <a href="/login">login</a>
+            </li>
+            <li>
+                <a href="/admin">admin</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>register page</h1>
+
+    <form method="POST">
+        <div class="div-form-text">
+            <label for="login">login:</label>
+            <input id="login" name="login" type="text">
+        </div>
+        <div class="div-form-text">
+            <label for="password">password:</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div class="div-form-select">
+            <label for="age">age:</label>
+            <select id="age" name="age">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+        <div class="div-form-checkbox">
+            <label for="student">student:</label>
+            <input id="student" name="student" value="checked" type="checkbox">
+        </div>
+        <div class="div-form-radio">
+            <label for="sex">sex:</label>
+            <a>man</a>
+            <input id="sex" name="sex" checked value="man" type="radio">
+            <a>woman</a>
+            <input id="sex" name="sex" value="woman" type="radio">
+        </div>
+        <div>
+            <button type="submit">register</button>
+        </div>
+    </form>
+
+</body>
+</html>
